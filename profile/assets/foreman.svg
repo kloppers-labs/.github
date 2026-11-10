@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800" role="img" aria-label="foreman: Claude Code dispatches a task to a cheap model in its own worktree; tests and a second model check it before it merges">
+  <defs>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff4fa3"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+    <radialGradient id="glowL" cx="0.1" cy="0" r="0.7"><stop offset="0" stop-color="#d42cf0" stop-opacity=".22"/><stop offset="1" stop-color="#d42cf0" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowR" cx="0.95" cy="1" r="0.7"><stop offset="0" stop-color="#5b2bea" stop-opacity=".3"/><stop offset="1" stop-color="#5b2bea" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#ffffff" fill-opacity=".06"/></pattern>
+    <marker id="head" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#ff4fa3"/></marker>
+    <clipPath id="card"><rect width="1280" height="800" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .word { font: 700 54px ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; fill: #ffffff; }
+    .sub { font: 400 27px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #c4bfdc; }
+    .node { font: 700 30px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #ffffff; }
+    .num { font: 700 24px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #ffffff; }
+    .detail { font: 400 23px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #b3aecb; }
+    .chip { font: 500 20px ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; fill: #e9e6f5; }
+  </style>
+  <g clip-path="url(#card)">
+    <rect width="1280" height="800" fill="#08070d"/>
+    <rect width="1280" height="800" fill="url(#dots)"/>
+    <rect width="1280" height="800" fill="url(#glowL)"/>
+    <rect width="1280" height="800" fill="url(#glowR)"/>
+  </g>
+  <rect x=".75" y=".75" width="1278.5" height="798.5" rx="21.5" fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="1.5"/>
+  <text class="word" x="70" y="118">foreman</text>
+  <text class="sub" x="70" y="170">Cheap models write the code. Tests and a second model check it.</text>
+  <line x1="412" y1="325.0" x2="459" y2="325.0" stroke="#c84fd8" stroke-width="3" stroke-linecap="round" marker-end="url(#head)"/><line x1="817" y1="325.0" x2="864" y2="325.0" stroke="#c84fd8" stroke-width="3" stroke-linecap="round" marker-end="url(#head)"/><line x1="1045.0" y1="412" x2="1045.0" y2="524" stroke="#c84fd8" stroke-width="3" stroke-linecap="round" marker-end="url(#head)"/><line x1="868" y1="615.0" x2="821" y2="615.0" stroke="#c84fd8" stroke-width="3" stroke-linecap="round" marker-end="url(#head)"/><line x1="463" y1="615.0" x2="416" y2="615.0" stroke="#c84fd8" stroke-width="3" stroke-linecap="round" marker-end="url(#head)"/>
+  <g transform="translate(70 250)">
+    <rect width="330" height="150" rx="20" fill="#ffffff" fill-opacity=".04" stroke="#ffffff" stroke-opacity=".13" stroke-width="1.5"/>
+    <circle cx="44" cy="46" r="22" fill="url(#pink)"/>
+    <text class="num" x="44" y="54" text-anchor="middle">1</text>
+    <text class="node" x="80" y="56">Claude Code</text>
+    <text class="detail" x="28" y="100">plans the change and</text>
+    <text class="detail" x="28" y="128">writes the task spec</text>
+  </g><g transform="translate(475 250)">
+    <rect width="330" height="150" rx="20" fill="#ffffff" fill-opacity=".04" stroke="#ffffff" stroke-opacity=".13" stroke-width="1.5"/>
+    <circle cx="44" cy="46" r="22" fill="url(#pink)"/>
+    <text class="num" x="44" y="54" text-anchor="middle">2</text>
+    <text class="node" x="80" y="56">Dispatch</text>
+    <text class="detail" x="28" y="100">its own git worktree and</text>
+    <text class="detail" x="28" y="128">a role-pinned model</text>
+  </g><g transform="translate(880 250)">
+    <rect width="330" height="150" rx="20" fill="#ffffff" fill-opacity=".04" stroke="#ffffff" stroke-opacity=".13" stroke-width="1.5"/>
+    <circle cx="44" cy="46" r="22" fill="url(#pink)"/>
+    <text class="num" x="44" y="54" text-anchor="middle">3</text>
+    <text class="node" x="80" y="56">Worker</text>
+    <text class="detail" x="28" y="100">a cheap model codes</text>
+    <text class="detail" x="28" y="128">over OpenCode ACP</text>
+  </g><g transform="translate(880 540)">
+    <rect width="330" height="150" rx="20" fill="#ffffff" fill-opacity=".04" stroke="#ffffff" stroke-opacity=".13" stroke-width="1.5"/>
+    <circle cx="44" cy="46" r="22" fill="url(#pink)"/>
+    <text class="num" x="44" y="54" text-anchor="middle">4</text>
+    <text class="node" x="80" y="56">Gate</text>
+    <text class="detail" x="28" y="100">your acceptance command,</text>
+    <text class="detail" x="28" y="128">for example bun test</text>
+  </g><g transform="translate(475 540)">
+    <rect width="330" height="150" rx="20" fill="#ffffff" fill-opacity=".04" stroke="#ffffff" stroke-opacity=".13" stroke-width="1.5"/>
+    <circle cx="44" cy="46" r="22" fill="url(#pink)"/>
+    <text class="num" x="44" y="54" text-anchor="middle">5</text>
+    <text class="node" x="80" y="56">Review</text>
+    <text class="detail" x="28" y="100">a read-only model from</text>
+    <text class="detail" x="28" y="128">a different lineage</text>
+  </g><g transform="translate(70 540)">
+    <rect width="330" height="150" rx="20" fill="#ffffff" fill-opacity=".07" stroke="url(#pink)" stroke-opacity="1" stroke-width="2.5"/>
+    <circle cx="44" cy="46" r="22" fill="url(#pink)"/>
+    <text class="num" x="44" y="54" text-anchor="middle">6</text>
+    <text class="node" x="80" y="56">Merge</text>
+    <text class="detail" x="28" y="100">--no-ff, or discard,</text>
+    <text class="detail" x="28" y="128">with a cost record</text>
+  </g>
+  <g transform="translate(70 728)">
+    <rect width="96" height="40" rx="20" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".12"/>
+    <text class="chip" x="48" y="27" text-anchor="middle">MCP</text>
+    <rect x="110" width="196" height="40" rx="20" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".12"/>
+    <text class="chip" x="208" y="27" text-anchor="middle">OpenCode ACP</text>
+    <rect x="320" width="236" height="40" rx="20" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".12"/>
+    <text class="chip" x="438" y="27" text-anchor="middle">per-task cost cap</text>
+  </g>
+</svg>
